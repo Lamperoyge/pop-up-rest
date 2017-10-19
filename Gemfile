@@ -18,6 +18,8 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'figaro'
 # gem 'pundit'
+gem 'omniauth-facebook'
+
 group :development, :test do
   gem 'pry-byebug'
   gem 'pry-rails'
