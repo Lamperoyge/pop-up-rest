@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :restaurants do
     resources :comments, only: [:create]
     resources :bookings
+    resources :reviews, only: [:create]
   end
 end
